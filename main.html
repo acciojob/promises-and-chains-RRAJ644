@@ -7,7 +7,18 @@
 
   <body>
     <!-- write the body here -->
-
+	   <form id="ageForm">
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required>
+    <span class="error" id="ageError"></span>
+    <br><br>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <span class="error" id="nameError"></span>
+    <br><br>
+    <button id="btn" type="submit">Submit</button>
+  </form>
+	  
     <script type="text/javascript" src="./script.js"></script>
   </body>
 </html>
