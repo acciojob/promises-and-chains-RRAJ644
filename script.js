@@ -12,12 +12,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let isValid = true
 
     if (!age.value) {
-      ageError.textContent = 'Age is required.'
+      ageError.textContent = 'inputs cannot be empty.'
       isValid = false
     }
 
     if (!name.value) {
-      nameError.textContent = 'Name is required.'
+      nameError.textContent = 'inputs cannot be empty.'
       isValid = false
     }
 
